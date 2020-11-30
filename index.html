@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <style>
+        body{
+            background-color: rgba(14, 13, 13, 0.904);
+        }
+        .div1,.div2,.div3,.div4{
+           display: none;
+           width: 5%;
+            position: absolute;
+            
+
+        }
+         img{
+            width:100%;
+            margin-left:0px;
+        }
+        .stock{
+           margin-top:0;
+           margin-right: 0;
+        }  
+        .leftcntent{
+            width: 50%;
+        }
+        ul{
+            list-style-type: none;
+        }
+        li{
+            display: inline;
+            margin-left: 5px;
+            padding:15px;
+        }
+        li:hover{
+            border-bottom: 4px solid gold;
+        }
+        nav{
+            height: 40px;
+            color: gold;
+        }
+
+        </style>
+</head>
+<body>
+
+  <div class="row">
+      <div class="col-sm-6">
+                <nav>
+                    <div class="">
+                        <h2>Alamin</h2>
+                    </div>  
+                      <ul class="">
+                        <li ><a  href=""></a>home</li>
+                        <li><a href=""></a>about</li>
+                        <li><a href=""></a>portfolio</li>
+                        <li><a href=""></a>contact</li>
+                        <li><a href=""></a>service</li>
+                        <li><a href=""></a>team</li>
+
+
+                    </ul>
+                </nav>
+                <br><br><br><br>
+        <div class="row">
+            
+            <div class="col-sm-4">
+                <div class="card">
+                    <h4>resturant</h4>
+                    <img src="http://alamin.epizy.com/wp-content/uploads/2020/11/c-150x150.png" alt="">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <h4>business</h4>
+                    <img src="http://alamin.epizy.com/wp-content/uploads/2020/11/Slide1-1-150x150.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <h4>quiz</h4>
+                    <img src="http://alamin.epizy.com/wp-content/uploads/2020/11/Slide1-2-150x150.jpg" alt="">
+                </div>
+            </div>
+        </div>
+<br>
+        <div class="row">     
+            <div class="col-sm-4">
+                <div class="card">
+                    <h4>social</h4>
+                    <img src="http://alamin.epizy.com/wp-content/uploads/2020/11/social-1-150x150.png" alt="">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <h4>propose</h4>
+                    <img src="http://alamin.epizy.com/wp-content/uploads/2020/11/Slide1-150x150.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <h4>fun</h4>
+                    <img src="http://alamin.epizy.com/wp-content/uploads/2020/11/love-150x150.png" alt="">
+                </div>
+            </div>
+        </div>
+      </div>
+  </div>
+   
+      
+    
+ 
+
+   
+    <div class="stock">
+    <div class="div1"><img src="image/118538664_886435121885376_8788661295039426401_o-removebg-preview (1).png" alt=""></div>
+   
+    <div class="div2"><img src="image/IMG_20200616_195145283-removebg-preview.png" alt=""></div>
+    
+    <div class="div3"><img src="image/BeautyPlus_20200226134036161_save-removebg-preview.png" alt=""></div>
+ 
+    <div class="div4"><img src="image/82022236_725005138028376_3774326893612892160_n-removebg-preview.png" alt=""></div>
+    </div>
+
+
+    <div class="container" style="color: white;">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>About Me</h2>
+            </div>
+        </div>
+    </div>
+
+<script>
+    $(document).ready(function(){
+        $('.div1').fadeIn();
+        $('.div1').animate({
+            top:'0',
+            right:'0',
+            width:'50%'      
+        });
+
+        $('.div2').fadeIn(3000);
+        $('.div2').animate({
+            top:'0',
+            right:'0',
+            width:'50%'      
+        });
+        $('.div1').fadeOut(4000);
+
+        $('.div3').fadeIn(6000);
+        $('.div3').animate({
+            top:'0',
+            right:'0',
+            width:'50%'      
+        });
+        $('.div2').fadeOut(4000);
+
+        $('.div4').fadeIn(9000);
+        $('.div4').animate({
+            top:'0',
+            right:'0',
+            width:'50%'      
+        });
+        $('.div3').fadeOut(4000);
+
+
+        $('.div4').fadeIn(9000);
+        $('.div4').animate({
+            top:'0',
+            right:'0',
+            width:'50%'      
+        });
+        $('.div3').fadeOut(4000);
+
+
+    })
+</script>
+
+</body>
+</html>
